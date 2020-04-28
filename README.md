@@ -1,8 +1,11 @@
 # BSCS17001_COVID19_DLSpring2020
 This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at Information Technology University, Lahore, Pakistan. This assignment is only for learning purposes and is not intended to be used for clinical purposes.
 
-Vgg16 task1
-Lr=0.00001, momentum=0.5
+Task1
+using pretrained model but changed FC layer
+
+Vgg16 
+1. Lr=0.00001, momentum=0.5
  
 Test Data analysis
 
@@ -11,47 +14,41 @@ Test accuracy 92%
 Accuracy of validation data after fine tuning of FC layers: 88%
 
 Accuracy of training data after fine tuning of FC layers: 85%
-lr=0.000001, momentum=0.9
 
- 
+2. lr=0.000001, momentum=0.9
+
 Test Data analysis
+
+Test accuracy=92%
  
 Accuracy of validation data after fine tuning of FC layers: 86%
 
 Accuracy of training data after fine tuning of FC layers: 83%
 
 
-lr=0.0001, momentum=0.9 (Best model)
+3. lr=0.0001, momentum=0.9 (Best model)
 
+Test Data analysis 
 
- 
-Test Data analysis
- 
+Test Accuracy=94%
 
 Accuracy of validation data after fine tuning of FC layers: 96%
 
 Accuracy of Training data after fine tuning of FC layers: 89%
 
-
 Resnet18
+
 lr=0.00001, momentum=0.9
 
- 
+Test Accuracy = 83%
+
 Accuracy of validation data after fine tuning of FC layers: 81%
-Confusion matrix, without normalization
-[[3496 1423]
- [ 830 6251]]
 
 Accuracy of Training data after fine tuning of FC layers: 78%
-Confusion matrix, without normalization
-[[419 196]
- [123 762]]
-
- 
-
-
  
+
 Task2 
+
 Vgg16
  lr=0.0001, momentum=0.9
 
