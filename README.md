@@ -53,7 +53,7 @@ Task2
 
 Vgg16
  lr=0.0001, momentum=0.9
-
+test accuracy: 94%
 
  
 ResNet18
