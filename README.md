@@ -4,7 +4,7 @@ This repository contains code and results for COVID-19 classification assignment
 Task1
 using pretrained model but changed FC layer
 
-Vgg16 
+Vgg16  
 1. Lr=0.00001, momentum=0.5
  
 Test Data analysis
@@ -35,6 +35,8 @@ Test Accuracy=94%
 Accuracy of validation data after fine tuning of FC layers: 96%
 
 Accuracy of Training data after fine tuning of FC layers: 89%
+...
+...
 
 Resnet18
 
@@ -54,8 +56,21 @@ Vgg16
 
 
  
+ResNet18
+1. lr=0.000001, momentum=0.7
 
+Test accuracy=62%
+
+Accuracy of validation data after fine tuning of FC layers: 62%
  
+
+2. Lr=0.00001, momentum=0.9
+
+Test Accuracy after fine tuning of FC layers: 91%
+
+Accuracy of training data after fine tuning of FC layers: 88%
+
+Accuracy of training data after fine tuning of FC layers: 86%
 
 
 Final comments
